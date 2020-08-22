@@ -1,0 +1,794 @@
+/* Theme Name: Tajem.
+Theme Design: Amir Hamza Shuvo Khan.
+Theme Created By: Amir Hamza Shuvo Khan. */
+
+/* Common Css Code Start Here */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style-type: none;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Common Css Code End Here */
+
+/* Header Css Code Start Here */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 72px;
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #00e0d0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0px 0px 0px 25px;
+}
+
+/* Header Css Code End Here */
+
+/* Banner Css Code Start Here */
+
+#banner {
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-overly {
+    background: linear-gradient(to right, rgb(9, 5, 47, 0.8), rgb(49, 29, 94, 0.8));
+    padding-top: 230px;
+    padding-bottom: 206px;
+}
+
+.banner-text h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 32px;
+    position: relative;
+    display: inline-block;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+}
+
+.banner-text h3::after {
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    background: #00e0d0;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.banner-text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 30px;
+    margin: 0px 113px;
+}
+
+.banner-text a {
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #00e0d0;
+    text-transform: uppercase;
+    padding: 15px 15px;
+    background: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 50px;
+    border: 1px solid #00e0d0;
+    transition: all linear .3s;
+}
+
+.banner-text a:hover {
+    border: 1px solid #322856;
+    background: #322856;
+    color: #ffffff;
+}
+
+/* Banner Css Code End Here */
+
+/* Our Story Css Code Start Here */
+
+#our-story {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.our-story-text h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #413d4b;
+    font-size: 22px;
+    padding-bottom: 28px;
+    text-transform: uppercase;
+}
+
+.our-story-text h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #413d4b;
+    line-height: 22px;
+    padding-bottom: 30px;
+}
+
+.our-story-text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #413d4b;
+    line-height: 22px;
+    padding-bottom: 30px;
+}
+
+.our-story-text a {
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #00e0d0;
+    text-transform: uppercase;
+    padding: 15px 15px;
+    background: none;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #00e0d0;
+    transition: all linear .3s;
+}
+
+.our-story-text a:hover {
+    border: 1px solid #322856;
+    background: #322856;
+    color: #ffffff;
+}
+
+/* Our Story Css Code End Here */
+
+/* Video Css Code Start Here */
+
+#video-bg {
+    background: url(../images/watch-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.video-bg-overly {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background: linear-gradient(to right, rgb(9, 5, 47, 0.8), rgb(49, 29, 94, 0.8));
+}
+
+.video-text i {
+    font-size: 100px;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+.video-text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* Video Css Code End Here */
+
+/* EXPERTISE Css Code Start Here */
+
+#expertise {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.expertise-title h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #413d4b;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.expertise-title p {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #2f2d35;
+    font-size: 14px;
+    position: relative;
+}
+
+.expertise-title p::after {
+    position: absolute;
+    bottom: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 2px;
+    background: #c6c4c9;
+    content: '';
+}
+
+.expertise-item i {
+    font-size: 50px;
+    padding-top: 80px;
+    background: -webkit-linear-gradient(#00e0d0, #4aa3cc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 30px;
+}
+
+.expertise-item h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    color: #413d4b;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.expertise-item p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #333333;
+    line-height: 22px;
+    padding: 0px 60px;
+}
+
+/* EXPERTISE Css Code End Here */
+
+/* Team Css Code Start Here */
+
+#team {
+    background: url(../images/team.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.team-overly {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: linear-gradient(to right, rgb(9, 5, 47, 0.8), rgb(49, 29, 94, 0.8));
+}
+
+.team-title h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.team-title p {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #f9f9f9;
+    position: relative;
+}
+
+.team-title p::after {
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background: #655c80;
+    bottom: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: '';
+}
+
+.team-item {
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.team-item-text {
+    border: 1px solid #78768b;
+    padding: 20px;
+    transition: all linear .3s;
+}
+
+.team-item-text h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    transition: all linear .3s;
+}
+
+.team-item-text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #fafafa;
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+
+.team-item:hover .team-item-text {
+    background: #ffffff;
+}
+
+.team-item:hover .team-item-text h3 {
+    color: #000000;
+}
+
+.team-item:hover .team-item-text p {
+    color: #000000;
+}
+
+.become {
+    padding-top: 70px;
+}
+
+.become h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #f3f3f3;
+    padding-bottom: 30px;
+}
+
+.become a {
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #00e0d0;
+    text-transform: uppercase;
+    padding: 14px 14px;
+    background: none;
+    border: 1px solid #00e0d0;
+    border-radius: 5px;
+    display: inline-block;
+    transition: all linear .3s;
+}
+
+.become a:hover {
+    border: 1px solid #322856;
+    background: #322856;
+    color: #ffffff;
+}
+/* Team Css Code End Here */
+
+/* Work Css Code Start Here */
+
+#work {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.work-title h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #413d4b;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.work-title p {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2f2d35;
+    position: relative;
+}
+
+.work-title p::after {
+    position: absolute;
+    bottom: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 2px;
+    background: #c6c4c9;
+    content: '';
+}
+
+.work-btn {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.work-btn button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #413d4b;
+    padding: 10px 10px;
+    margin: 0px 5px;
+    background: none;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+
+.work-btn button:hover {
+    border: 1px solid #00e0d0;
+    background: #00e0d0;
+}
+
+.our-works {
+    position: relative;
+    cursor: pointer;
+}
+
+.our-works-overly {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(75, 58, 110,0.5);
+    opacity: 0;
+    transition: all linear .3s;
+}
+
+.our-works-overly p {
+    position: relative;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    transition: all linear .3s;
+}
+
+.our-works:hover .our-works-overly {
+    opacity: 1;
+}
+
+.our-works:hover .our-works-overly i {
+    color: #ffffff;
+}
+
+.load-more {
+    padding-top: 70px;
+}
+
+.load-more a {
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #00e0d0;
+    text-transform: uppercase;
+    padding: 14px 27px;
+    background: none;
+    border: 1px solid #00e0d0;
+    border-radius: 5px;
+    display: inline-block;
+    transition: all linear .3s;
+}
+
+.load-more a:hover {
+    border: 1px solid #322856;
+    background: #322856;
+    color: #ffffff;
+}
+
+/* Work Css Code End Here */
+
+/* Review Css Code Start Here */
+
+#review {
+    background: url(../images/review-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.review-overly {
+    padding-top: 118px;
+    padding-bottom: 75px;
+    background: linear-gradient(to right, rgb(9, 5, 47, 0.8), rgb(49, 29, 94, 0.8));
+}
+
+.review-item h4 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 100px;
+    padding-bottom: 30px;
+}
+
+.review-item p {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 40px;
+}
+
+.review-item h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.review-item h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+/* Review Css Code End Here */
+
+/* Good Css Code Start Here */
+
+#good {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.good-news-one h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #413d4b;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.good-input {
+    width: 470px;
+    border: 1px solid #e5e5e5;
+    height: 43px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 425px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #e5e5e5;
+}
+
+textarea {
+    width: 468px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #e5e5e5;
+}
+
+.mg-none {
+    margin-bottom: 0;
+}
+
+.good-news-one a {
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #00e0d0;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background: none;
+    border-radius: 5px;
+    border: 1px solid #00e0d0;
+    display: inline-block;
+    margin-top: 20px;
+    transition: all linear .3s;
+}
+
+.good-news-one a:hover {
+    border: 1px solid #322856;
+    background: #322856;
+    color: #ffffff;
+}
+
+.good-news-two h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #413d4b;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+/* Good Css Code End Here */
+
+/* Footer Css Code Start Here */
+
+#footer {
+    background: url(../images/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer-overly {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: linear-gradient(to right, rgb(9, 5, 47, 0.8), rgb(49, 29, 94, 0.8));
+}
+
+.footer-item h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 26px;
+    padding-top: 25px;
+    padding-bottom: 70px;
+    width: 287px;
+}
+
+.footer-item p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.studio {
+    margin-top: 20px;
+}
+
+.studio h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-bottom: 38px;
+}
+
+.studio-icon i {
+    font-size: 19px;
+    color: #ffffff;
+    vertical-align: middle;
+}
+
+.studio-text h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 26px;
+    width: 237px;
+    padding-bottom: 20px;  
+}
+
+.pb-none h3 {
+    padding-bottom: 0;
+}
+
+.touch {
+    margin-top: 20px;
+}
+
+.touch h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-bottom: 38px;
+}
+
+.newslatter {
+    width: 309px;
+    height: 43px;
+    border: 1px solid #9e98b0;
+    background: none;
+}
+
+.newslatter input {
+	margin-top: 8px;
+	margin-left: 3px;
+	width: 300px;
+    height: 25px;
+    border: none;
+    background: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.send-icon i {
+    font-size: 25px;
+    color: #000000;
+    width: 45px;
+    height: 45px;
+    background: rgb(255, 255, 255,0.7);
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.media-icon i {
+    font-size: 15px;
+    color: #ffffff;
+    width: 35px;
+    height: 35px;
+    background: none;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+
+.media-icon i:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+.copyright p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    padding-top: 70px;
+}
+
+/* Footer Css Code End Here */
+
+/* Common Css Code Start Here */
+
+/* Common Css Code End Here */
